@@ -1,0 +1,29 @@
+{
+  "author": "Nicholas Jamieson <nicholas@cartant.com>",
+  "bugs": {
+    "url": "https://github.com/cartant/eslint-config/issues"
+  },
+  "dependencies": {},
+  "description": "ESLint configuration",
+  "devDependencies": {},
+  "homepage": "https://github.com/cartant/eslint-config",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "@cartant/eslint-config",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cartant/eslint-config.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
