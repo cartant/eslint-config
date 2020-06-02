@@ -13,6 +13,7 @@
   "name": "@cartant/eslint-config",
   "optionalDependencies": {},
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
     "eslint": "^7.0.0"
   },
   "private": false,
