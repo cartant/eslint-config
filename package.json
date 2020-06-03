@@ -14,7 +14,8 @@
   "optionalDependencies": {},
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.0.0",
-    "eslint": "^7.0.0"
+    "eslint": "^7.0.0",
+    "eslint-plugin-import": "^2.20.2"
   },
   "private": false,
   "publishConfig": {

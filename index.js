@@ -1,7 +1,6 @@
 module.exports = {
   plugin: [
     "@typescript-eslint",
-    "etc",
     "import"
   ],
   rules: {
@@ -78,7 +77,6 @@ module.exports = {
       "selector": "typeLike",
       "trailingUnderscore": "allow"
     }],
-    "etc/deprecation": ["warning"],
     "import/order": ["warning", {
       "alphabetize": {
         "caseInsensitive": true,
