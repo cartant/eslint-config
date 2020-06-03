@@ -11,29 +11,32 @@ module.exports = {
     "eqeqeq": ["error", "always", {
       "null": "ignore"
     }],
-    // "forin" - guard-for-in
-    // "new-parens" - new-parens
-    // "no-bitwise" - no-bitwise
-    // "no-arg" - no-caller
-    // "no-conditional-assignment" - no-cond-assign
-    // "no-console" - no-console
-    // "no-debugger" - no-debugger
-    // "no-eval" - no-eval
-    // "no-switch-case-fall-through" - no-fallthrough
-    // "no-invalid-this" - no-invalid-this
-    // "no-construct" - no-new-wrappers
-    // "no-duplicate-variable" - no-redeclare
-    // "no-sparse-arrays" - no-sparse-arrays
-    // "no-invalid-template-strings" - no-template-curly-in-string
-    // "no-unsafe-finally" - no-unsafe-finally
-    // "no-unused-expression" - no-unused-expressions
-    // "label-position" - no-unused-labels
-    // "no-var-keyword" - no-var
-    // "one-variable-per-declaration" - one-var
-    // "prefer-template"- (warning) - prefer-template
-    // "radix" - radix
-    // "object-literal-sort-keys" - sort-keys
-    // "use-isnan" - use-isnan
+    "guard-for-in": ["error"],
+    "new-parens": ["error"],
+    "no-bitwise": ["error"],
+    "no-caller": ["error"],
+    "no-cond-assign": ["error"],
+    "no-console":  ["error", { allow: ["warn", "error"] }],
+    "no-debugger": ["error"],
+    "no-eval": ["error"],
+    "no-fallthrough": ["error"],
+    "no-invalid-this": ["error"],
+    "no-new-wrappers": ["error"],
+    "no-redeclare": ["error"],
+    "no-sparse-arrays": ["error"],
+    "no-template-curly-in-string": ["error"],
+    "no-unsafe-finally": ["error"],
+    "no-unused-expressions": ["error"],
+    "no-unused-labels": ["error"],
+    "no-var": ["error"],
+    "one-var": ["error"],
+    "prefer-template": ["error"],
+    "radix": ["error"],
+    "sort-keys": ["error", "asc", {
+      "caseSensitive": true,
+      "natural": true
+    }],
+    "use-isnan": ["error"],
     "@typescript-eslint/adjacent-overload-signatures": ["error"],
     "@typescript-eslint/array-type": ["error", {
       "default": "array",
