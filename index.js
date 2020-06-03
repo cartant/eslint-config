@@ -41,7 +41,7 @@ module.exports = {
       "default": "array",
       "readonly": "array"
     }],
-    "@typescript-eslint/member-ordering": ["warning", {
+    "@typescript-eslint/member-ordering": ["warn", {
       "classes": {
         "memberTypes": [
           "static-field",
@@ -66,7 +66,7 @@ module.exports = {
       "parameter": true,
       "property-declaration": true
     }],
-    "@typescript-eslint/naming-convention": ["warning", {
+    "@typescript-eslint/naming-convention": ["warn", {
       "format": ["camelCase"],
       "leadingUnderscore": "allow",
       "selector": "variableLike",
@@ -77,7 +77,7 @@ module.exports = {
       "selector": "typeLike",
       "trailingUnderscore": "allow"
     }],
-    "import/order": ["warning", {
+    "import/order": ["warn", {
       "alphabetize": {
         "caseInsensitive": true,
         "order": "asc"
