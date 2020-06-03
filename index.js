@@ -55,17 +55,6 @@ module.exports = {
         "order": "alphabetically"
       }
     }],
-    "@typescript-eslint/no-namespace": ["error"],
-    "@typescript-eslint/triple-slash-reference": ["error", {
-      "lib": "never",
-      "path": "never",
-      "types": "never"
-    }],
-    "@typescript-eslint/typedef": ["error", {
-      "call-signature": true,
-      "parameter": true,
-      "property-declaration": true
-    }],
     "@typescript-eslint/naming-convention": ["warn", {
       "format": ["camelCase"],
       "leadingUnderscore": "allow",
@@ -77,11 +66,23 @@ module.exports = {
       "selector": "typeLike",
       "trailingUnderscore": "allow"
     }],
+    "@typescript-eslint/no-namespace": ["error"],
+    "@typescript-eslint/triple-slash-reference": ["error", {
+      "lib": "never",
+      "path": "never",
+      "types": "never"
+    }],
     "import/order": ["warn", {
       "alphabetize": {
         "caseInsensitive": true,
         "order": "asc"
-      }
+      },
+      "groups": [
+        ["builtin", "external", "internal", "unknown"],
+        "index",
+        "parent",
+        "sibling"
+      ]
     }]
   }
 };
