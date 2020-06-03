@@ -28,7 +28,7 @@ module.exports = {
     "no-unused-expressions": ["error"],
     "no-unused-labels": ["error"],
     "no-var": ["error"],
-    "one-var": ["error"],
+    "one-var": ["error", "never"],
     "prefer-template": ["error"],
     "radix": ["error"],
     "sort-keys": ["error", "asc", {
