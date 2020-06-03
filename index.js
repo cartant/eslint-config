@@ -1,5 +1,5 @@
 module.exports = {
-  plugin: [
+  plugins: [
     "@typescript-eslint",
     "import"
   ],
