@@ -16,7 +16,7 @@ module.exports = {
     "no-bitwise": ["error"],
     "no-caller": ["error"],
     "no-cond-assign": ["error"],
-    "no-console": ["error", { allow: ["warn", "error"] }],
+    "no-console": ["warn", { allow: ["warn", "error"] }],
     "no-debugger": ["error"],
     "no-eval": ["error"],
     "no-fallthrough": ["error"],
@@ -34,7 +34,7 @@ module.exports = {
     "prefer-template": ["error"],
     radix: ["error"],
     "sort-keys": [
-      "error",
+      "warn",
       "asc",
       {
         caseSensitive: true,
