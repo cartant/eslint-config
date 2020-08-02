@@ -98,6 +98,7 @@ module.exports = {
     ],
     "@typescript-eslint/no-inferrable-types": ["warn"],
     "@typescript-eslint/no-namespace": ["error"],
+    "@typescript-eslint/prefer-for-of": ["warn"],
     "@typescript-eslint/triple-slash-reference": [
       "error",
       {
