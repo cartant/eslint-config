@@ -26,8 +26,7 @@ module.exports = {
     "no-sparse-arrays": ["error"],
     "no-template-curly-in-string": ["error"],
     "no-unsafe-finally": ["error"],
-    // https://github.com/eslint/eslint/issues/12822
-    "no-unused-expressions": ["off"],
+    "no-unused-expressions": ["warn"],
     "no-unused-labels": ["error"],
     "no-var": ["error"],
     "one-var": ["error", "never"],
