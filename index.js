@@ -22,7 +22,6 @@ module.exports = {
     "no-fallthrough": ["error"],
     "no-invalid-this": ["error"],
     "no-new-wrappers": ["error"],
-    "no-redeclare": ["error"],
     "no-sparse-arrays": ["error"],
     "no-template-curly-in-string": ["error"],
     "no-unsafe-finally": ["error"],
