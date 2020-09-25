@@ -3,7 +3,10 @@
   "bugs": {
     "url": "https://github.com/cartant/eslint-config/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
   "description": "ESLint configuration",
   "devDependencies": {},
   "homepage": "https://github.com/cartant/eslint-config",
@@ -13,9 +16,7 @@
   "name": "@cartant/eslint-config",
   "optionalDependencies": {},
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.0.0",
-    "eslint": "^7.0.0",
-    "eslint-plugin-import": "^2.20.2"
+    "eslint": "^7.0.0"
   },
   "private": false,
   "publishConfig": {
