@@ -96,7 +96,10 @@ module.exports = {
     ],
     "@typescript-eslint/no-inferrable-types": ["warn"],
     "@typescript-eslint/no-namespace": ["error"],
-    "@typescript-eslint/no-unused-vars": ["warn", { "args": "none" }],
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      { args: "none", ignoreRestSiblings: true },
+    ],
     "@typescript-eslint/prefer-for-of": ["warn"],
     "@typescript-eslint/triple-slash-reference": [
       "error",
