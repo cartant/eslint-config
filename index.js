@@ -48,6 +48,7 @@ module.exports = {
         readonly: "array",
       },
     ],
+    "@typescript-eslint/ban-types": ["error"],
     "@typescript-eslint/member-ordering": [
       "warn",
       {
