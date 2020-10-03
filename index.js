@@ -98,8 +98,11 @@ module.exports = {
         trailingUnderscore: "allow",
       },
     ],
+    "@typescript-eslint/no-extra-non-null-assertion": ["error"],
     "@typescript-eslint/no-inferrable-types": ["warn"],
     "@typescript-eslint/no-namespace": ["error"],
+    "@typescript-eslint/no-non-null-asserted-optional-chain": ["error"],
+    "@typescript-eslint/no-non-null-assertion": ["error"],
     "@typescript-eslint/no-unused-vars": [
       "warn",
       { args: "none", ignoreRestSiblings: true },
