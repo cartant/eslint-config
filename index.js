@@ -108,6 +108,8 @@ module.exports = {
       { args: "none", ignoreRestSiblings: true },
     ],
     "@typescript-eslint/prefer-for-of": ["warn"],
+    "@typescript-eslint/require-await": ["error"],
+    "@typescript-eslint/return-await": ["error"],
     "@typescript-eslint/triple-slash-reference": [
       "error",
       {
