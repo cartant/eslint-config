@@ -103,6 +103,7 @@ module.exports = {
     "@typescript-eslint/no-namespace": ["error"],
     "@typescript-eslint/no-non-null-asserted-optional-chain": ["error"],
     "@typescript-eslint/no-non-null-assertion": ["error"],
+    "@typescript-eslint/no-unnecessary-boolean-literal-compare": ["warn"],
     "@typescript-eslint/no-unused-vars": [
       "warn",
       { args: "none", ignoreRestSiblings: true },
