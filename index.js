@@ -34,7 +34,7 @@ module.exports = {
       "warn",
       "asc",
       {
-        caseSensitive: true,
+        caseSensitive: false,
         natural: true,
       },
     ],
