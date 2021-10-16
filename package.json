@@ -4,11 +4,15 @@
     "url": "https://github.com/cartant/eslint-config/issues"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
     "eslint-plugin-import": "^2.20.2"
   },
   "description": "ESLint configuration",
-  "devDependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^4.0.0"
+  },
   "homepage": "https://github.com/cartant/eslint-config",
   "keywords": [],
   "license": "MIT",
@@ -16,7 +20,7 @@
   "name": "@cartant/eslint-config",
   "optionalDependencies": {},
   "peerDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^8.0.0"
   },
   "private": false,
   "publishConfig": {
