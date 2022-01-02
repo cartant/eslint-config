@@ -110,6 +110,10 @@ module.exports = {
     ],
     "@typescript-eslint/prefer-for-of": ["warn"],
     "@typescript-eslint/prefer-nullish-coalescing": ["error"],
+    "@typescript-eslint/require-array-sort-compare": [
+      "error",
+      { ignoreStringArrays: true },
+    ],
     "@typescript-eslint/require-await": ["error"],
     "@typescript-eslint/return-await": ["error"],
     "@typescript-eslint/triple-slash-reference": [
